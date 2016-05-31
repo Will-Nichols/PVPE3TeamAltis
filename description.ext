@@ -1,0 +1,19 @@
+disabledAI = true;
+respawn = BASE;
+respawnTemplates[] = {"MenuPosition"};
+respawndelay = 5;
+author = "PMC-Tyler";
+OnLoadName = "Assault and Recover";
+OnLoadMission = "OPFOR has occupied the island of Altis and the local AAF troops have been pushed back to the airport. NATO forces have been assembled to assist in the retaking of the island from hostile forces.";
+debriefing = 0;
+class Header
+{
+gameType = Coop;
+minPlayers = 1;
+maxPlayers = 60;
+};
+
+class CfgFunctions
+{
+#include "scripts\PMCT_Functions.hpp"
+};
